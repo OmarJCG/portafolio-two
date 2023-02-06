@@ -88,7 +88,7 @@ modalCloses.forEach((modalClose, i) =>{
     modalClose.addEventListener('click', () => {
         modalViews.forEach(modalView=>{
             modalView.classList.remove('active-modal');
-        })
+        }) 
     })
 })
 
