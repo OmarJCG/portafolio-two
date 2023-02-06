@@ -735,7 +735,7 @@ img {
 }
 
 .swiper-pagination-bullet-active{
-  color: var(--first-color);
+  background-color: var(--first-color);
 }
 
 .swiper-button-next,
