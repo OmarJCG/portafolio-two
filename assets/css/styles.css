@@ -639,7 +639,7 @@ img {
   padding: 0 1rem;
   z-index: var(--z-modal);
   opacity: 0;
-  visibility: inherit;
+  visibility: hidden;
   transition: .3s;
 }
 
@@ -679,7 +679,10 @@ img {
 }
 
 /* Active Modal */
-
+.active-modal{
+  opacity: 1;
+  visibility: visible;
+}
 
 /*==================== PORTFOLIO ====================*/
 
